@@ -7,3 +7,11 @@ type Post{
     name : String
     description : String
 }
+
+type Mutation{
+    createRequest(
+    name : String,
+        description : String
+    ):Post!
+
+}
